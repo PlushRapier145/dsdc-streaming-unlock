@@ -1,0 +1,20 @@
+# Never commit game files. An unpatched ds.exe is 86 MB and is not ours to
+# redistribute; the tests take one from DSDC_VANILLA or fixtures/ instead.
+fixtures/
+dist/
+*.exe
+*.original
+*.bak
+*.tmp
+settings.cfg
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
